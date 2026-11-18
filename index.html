@@ -116,7 +116,7 @@
   /* ───────── 6. CONTACT ───────── */
   .contact{padding:clamp(70px,10vw,140px) var(--gutter) 28px;position:relative;overflow:hidden}
   .contact .big{font-family:var(--script);color:var(--pink);font-size:clamp(72px,14vw,220px);line-height:.95;text-align:center}
-  .contact .spaced{display:grid;grid-template-columns:repeat(4,1fr);font-size:clamp(13px,1.4vw,18px);font-weight:300;margin:30px 0 70px;text-align:center}
+  .contact .spaced{display:grid;grid-template-columns:repeat(5,1fr);font-size:clamp(13px,1.4vw,18px);font-weight:300;margin:30px 0 70px;text-align:center}
   .links{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;border-top:1.5px solid var(--line);padding-top:14px}
   .links a{display:flex;flex-direction:column;gap:6px}
   .links b{font-weight:500;font-size:10px;text-transform:uppercase;letter-spacing:.05em}
@@ -187,6 +187,7 @@
     .frame .lbl{font-size:9px}
     .frame .lbl span:first-child{display:none}
     .contact .spaced{grid-template-columns:repeat(2,1fr);row-gap:10px}
+    .contact .spaced span:last-child{grid-column:1/-1}
     .links{grid-template-columns:1fr 1fr;row-gap:22px}
     .links a:last-child{grid-column:1/-1}
   }
@@ -244,8 +245,6 @@
   <img src="assets/IMG_1648.jpg" alt="">
   <img class="l2" src="assets/IMG_3268.jpg" alt="">
   <div class="sig">sarra</div>
-  <img class="deco" src="assets/shik/hearts.png" alt="" style="left:36%;top:20%;width:clamp(60px,7vw,120px);--r:12deg">
-  <img class="deco p" src="assets/shik/gloss.png" alt="" style="left:44%;bottom:5%;width:clamp(90px,10vw,170px);--r:18deg">
 </section>
 
 <!-- ═════════ 3 · SPEC SHEET ═════════ -->
@@ -271,7 +270,6 @@
         <img class="a" src="assets/IMG_3272.jpg" alt="">
         <img class="b" src="assets/IMG_3274.jpg" alt="">
       </div>
-      <img class="deco hm" src="assets/shik/smile.png" alt="" style="left:4%;top:14%;width:clamp(70px,8vw,120px);--r:-8deg">
       <img class="deco p" src="assets/shik/lipstick.png" alt="" style="right:5%;bottom:8%;width:clamp(80px,9vw,140px);--r:14deg">
     </div>
   </div>
@@ -282,17 +280,18 @@
   <div class="reels-head">
     <h2>reels</h2>
     <img class="deco p" src="assets/shik/palette.png" alt="" style="left:calc(var(--gutter) + clamp(170px,18vw,260px));top:-40px;width:clamp(100px,11vw,180px);--r:-14deg">
-    <p>Swimwear reels: sea, caves, waterfalls, sun on skin. Vertical for Reels / TikTok.</p>
+    <p>Beauty reels: makeup, skin, close-ups and everyday routine. Vertical for Reels / TikTok.</p>
   </div>
   <div class="tags">
-    <div class="tag"><video muted loop playsinline preload="none" poster="assets/reel-01.jpg" src="assets/reel-01.mp4"></video><div class="meta"><span>Reel 01 · 0:09</span><i>swim</i></div></div>
-    <div class="tag"><video muted loop playsinline preload="none" poster="assets/reel-02.jpg" src="assets/reel-02.mp4"></video><div class="meta"><span>Reel 02 · 0:14</span><i>swim</i></div></div>
-    <div class="tag wide"><video muted loop playsinline preload="none" poster="assets/reel-07.jpg" src="assets/reel-07.mp4"></video><div class="meta"><span>Reel 03 · 0:16 · 16:9</span><i>swim</i></div></div>
-    <div class="tag"><video muted loop playsinline preload="none" poster="assets/reel-03.jpg" src="assets/reel-03.mp4"></video><div class="meta"><span>Reel 04 · 0:05</span><i>swim</i></div></div>
-    <div class="tag"><video muted loop playsinline preload="none" poster="assets/reel-06.jpg" src="assets/reel-06.mp4"></video><div class="meta"><span>Reel 05 · 0:09</span><i>swim</i></div></div>
-    <div class="tag wide"><video muted loop playsinline preload="none" poster="assets/reel-08.jpg" src="assets/reel-08.mp4"></video><div class="meta"><span>Reel 06 · 0:09 · 16:9</span><i>swim</i></div></div>
-    <div class="tag"><video muted loop playsinline preload="none" poster="assets/reel-04.jpg" src="assets/reel-04.mp4"></video><div class="meta"><span>Reel 07 · 0:03</span><i>swim</i></div></div>
-    <div class="tag"><video muted loop playsinline preload="none" poster="assets/reel-05.jpg" src="assets/reel-05.mp4"></video><div class="meta"><span>Reel 08 · 0:03</span><i>everyday</i></div></div>
+    <div class="tag"><video muted loop playsinline preload="none" poster="assets/s-01.jpg" src="assets/s-01.mp4"></video><div class="meta"><span>Reel 01 · 0:16</span><i>beauty</i></div></div>
+    <div class="tag"><video muted loop playsinline preload="none" poster="assets/s-02.jpg" src="assets/s-02.mp4"></video><div class="meta"><span>Reel 02 · 0:33</span><i>beauty</i></div></div>
+    <div class="tag wide"><video muted loop playsinline preload="none" poster="assets/reel-07.jpg" src="assets/reel-07.mp4"></video><div class="meta"><span>Reel 03 · 0:16 · 16:9</span><i>lifestyle</i></div></div>
+    <div class="tag"><video muted loop playsinline preload="none" poster="assets/s-03.jpg" src="assets/s-03.mp4"></video><div class="meta"><span>Reel 04 · 0:55</span><i>makeup</i></div></div>
+    <div class="tag"><video muted loop playsinline preload="none" poster="assets/s-04.jpg" src="assets/s-04.mp4"></video><div class="meta"><span>Reel 05 · 0:10</span><i>beauty</i></div></div>
+    <div class="tag wide"><video muted loop playsinline preload="none" poster="assets/s-05.jpg" src="assets/s-05.mp4"></video><div class="meta"><span>Reel 06 · 0:03 · 16:9</span><i>beauty</i></div></div>
+    <div class="tag"><video muted loop playsinline preload="none" poster="assets/s-06.jpg" src="assets/s-06.mp4"></video><div class="meta"><span>Reel 07 · 0:07</span><i>beauty</i></div></div>
+    <div class="tag"><video muted loop playsinline preload="none" poster="assets/s-07.jpg" src="assets/s-07.mp4"></video><div class="meta"><span>Reel 08 · 0:09</span><i>beauty</i></div></div>
+    <div class="tag"><video muted loop playsinline preload="none" poster="assets/s-09.jpg" src="assets/s-09.mp4"></video><div class="meta"><span>Reel 09 · 0:06</span><i>everyday</i></div></div>
   </div>
   <p class="proposed"><span>proposed content</span><b>for SHIK studio</b><img class="deco hm" src="assets/shik/scribble.png" alt="" style="right:0;top:18px;width:clamp(100px,11vw,170px);--r:-4deg"></p>
 </section>
@@ -316,6 +315,14 @@
     <div class="frame wide"><img src="assets/IMG_3310.jpg" alt=""><div class="lbl"><span>ISO 125</span><span>_IMG_3310.JPG</span><span><i class="box"></i><i class="lines"></i></span></div></div>
     <div class="frame wide"><img src="assets/IMG_3311.jpg" alt=""><div class="lbl"><span>ISO 125</span><span>_IMG_3311.JPG</span><span><i class="box"></i><i class="lines"></i></span></div></div>
     <div class="frame wide"><img src="assets/IMG_3313.jpg" alt=""><div class="lbl"><span>ISO 125</span><span>_IMG_3313.JPG</span><span><i class="box"></i><i class="lines"></i></span></div></div>
+    <div class="frame"><img src="assets/IMG_3060.jpg" alt=""><div class="lbl"><span>ISO 100</span><span>_IMG_3060.JPG</span><span><i class="box"></i><i class="lines"></i></span></div></div>
+    <div class="frame"><img src="assets/IMG_3076.jpg" alt=""><div class="lbl"><span>ISO 100</span><span>_IMG_3076.JPG</span><span><i class="box"></i><i class="lines"></i></span></div></div>
+    <div class="frame"><img src="assets/IMG_3274.jpg" alt="" style="object-position:50% 20%"><div class="lbl"><span>ISO 125</span><span>_IMG_3274.JPG</span><span><i class="box"></i><i class="lines"></i></span></div></div>
+    <div class="frame"><img src="assets/IMG_3268.jpg" alt="" style="object-position:50% 25%"><div class="lbl"><span>ISO 125</span><span>_IMG_3268.JPG</span><span><i class="box"></i><i class="lines"></i></span></div></div>
+    <div class="frame wide"><img src="assets/IMG_5159.jpg" alt="" style="object-position:50% 35%"><div class="lbl"><span>ISO 64</span><span>_IMG_5159.JPG</span><span><i class="box"></i><i class="lines"></i></span></div></div>
+    <div class="frame wide"><img src="assets/IMG_6712.jpg" alt="" style="object-position:50% 30%"><div class="lbl"><span>ISO 64</span><span>_IMG_6712.JPG</span><span><i class="box"></i><i class="lines"></i></span></div></div>
+    <div class="frame wide"><img src="assets/IMG_6731.jpg" alt="" style="object-position:50% 30%"><div class="lbl"><span>ISO 64</span><span>_IMG_6731.JPG</span><span><i class="box"></i><i class="lines"></i></span></div></div>
+    <div class="frame wide"><img src="assets/portrait-main.jpg" alt="" style="object-position:50% 30%"><div class="lbl"><span>ISO 100</span><span>_portrait-main.JPG</span><span><i class="box"></i><i class="lines"></i></span></div></div>
   </div>
   <p class="sheet-hint">← tap a frame to mark it</p>
 </section>
@@ -324,9 +331,8 @@
 <footer class="contact" id="contact">
   <img class="deco p" src="assets/shik/blush.png" alt="" style="left:3%;top:9%;width:clamp(90px,13vw,210px);--r:-10deg">
   <img class="deco p hm" src="assets/shik/pencil.png" alt="" style="right:3%;top:12%;width:clamp(120px,16vw,250px);--r:4deg">
-  <img class="deco" src="assets/shik/exclaim.png" alt="" style="left:18%;top:22%;width:clamp(40px,5vw,80px);--r:-10deg">
   <div class="big">let's create</div>
-  <div class="spaced"><span>sport</span><span>swim</span><span>everyday</span><span>[ available ]</span></div>
+  <div class="spaced"><span>beauty</span><span>lifestyle</span><span>model</span><span>everyday</span><span>[ available ]</span></div>
   <div class="links">
     <a href="https://www.instagram.com/sarricore/" target="_blank" rel="noopener"><b>Instagram</b><span>@sarricore</span></a>
     <a href="https://t.me/sarrakrr" target="_blank" rel="noopener"><b>Telegram</b><span>@sarrakrr</span></a>
