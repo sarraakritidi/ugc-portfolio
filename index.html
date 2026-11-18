@@ -136,7 +136,14 @@
   .shik-mark i{font-style:normal;font-weight:300;color:var(--char)}
   .selects-top .decobox{position:relative;align-self:stretch;min-height:150px}
   .reels .proposed b{letter-spacing:.32em}
-  @media (max-width:820px){ .deco.hm{display:none} .deco{max-width:28vw} }
+  .deco.mo{display:none}
+  @media (max-width:820px){ .deco.hm{display:none} .deco{max-width:28vw}
+    .hero{overflow:hidden}
+    .deco.mo{display:block}
+    .ref .deco.lip{width:40px!important;right:1.5%!important;bottom:2%!important}
+    .proposed{padding-left:10px}
+    .proposed span{font-size:12.5vw;text-shadow:0 1px 14px rgba(150,60,90,.35)}
+  }
 
   /* ───────── планшет ───────── */
   @media (max-width:1100px) and (min-width:821px){
@@ -215,6 +222,8 @@
     </div>
   </nav>
 
+  <img class="deco p mo" src="assets/shik/lip-oil.png" alt="" style="left:61%;top:48px;width:20vw;--r:-10deg">
+  <img class="deco mo" src="assets/shik/star.png" alt="" style="right:4%;top:150px;width:13vw;--r:8deg">
   <h1 class="name">SARRA AKRITIDI</h1>
 
   <div class="hero-body">
@@ -270,7 +279,7 @@
         <img class="a" src="assets/IMG_3272.jpg" alt="">
         <img class="b" src="assets/IMG_3274.jpg" alt="">
       </div>
-      <img class="deco p" src="assets/shik/lipstick.png" alt="" style="right:5%;bottom:8%;width:clamp(80px,9vw,140px);--r:14deg">
+      <img class="deco p lip" src="assets/shik/lipstick.png" alt="" style="right:5%;bottom:8%;width:clamp(80px,9vw,140px);--r:14deg">
     </div>
   </div>
 </section>
